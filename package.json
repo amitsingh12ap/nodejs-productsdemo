@@ -1,0 +1,21 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "my first product using mongoose as db to save products in db and fetch it",
+  "main": "index.js",
+  "scripts": {
+    "start": "node source/index.js",
+    "dev": "nodemon source/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
